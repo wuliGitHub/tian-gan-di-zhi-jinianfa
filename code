@@ -1,0 +1,156 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int year;
+	cin >> year;
+	if (year >= 2016)
+	{
+		switch ((year - 2016) % 10)
+		{
+		case 0:
+			cout << "丙";
+			break;
+		case 1:
+			cout << "丁";
+			break;
+		case 2:
+			cout << "戊";
+			break;
+		case 3:
+			cout << "己";
+			break;
+		case 4:
+			cout << "庚";
+			break;
+		case 5:
+			cout << "辛";
+			break;
+		case 6:
+			cout << "壬";
+			break;
+		case 7:
+			cout << "癸";
+			break;
+		case 8:
+			cout << "甲";
+			break;
+		case 9:
+			cout << "乙";
+			break;
+		}
+		switch ((year - 2016) % 12)
+		{
+		case 0:
+			cout << "申";
+			break;
+		case 1:
+			cout << "酉";
+			break;
+		case 2:
+			cout << "戌";
+			break;
+		case 3:
+			cout << "亥";
+			break;
+		case 4:
+			cout << "子";
+			break;
+		case 5:
+			cout << "丑";
+			break;
+		case 6:
+			cout << "寅";
+			break;
+		case 7:
+			cout << "卯";
+			break;
+		case 8:
+			cout << "辰";
+			break;
+		case 9:
+			cout << "巳";
+			break;
+		case 10:
+			cout << "午";
+			break;
+		case 11:
+			cout << "未";
+		}
+	}
+	else
+	{
+		switch ((year - 2016) % 10+10)
+		{
+		case 0:
+			cout << "丙";
+			break;
+		case 1:
+			cout << "丁";
+			break;
+		case 2:
+			cout << "戊";
+			break;
+		case 3:
+			cout << "己";
+			break;
+		case 4:
+			cout << "庚";
+			break;
+		case 5:
+			cout << "辛";
+			break;
+		case 6:
+			cout << "壬";
+			break;
+		case 7:
+			cout << "癸";
+			break;
+		case 8:
+			cout << "甲";
+			break;
+		case 9:
+			cout << "乙";
+			break;
+		}
+		switch ((year - 2016) % 12+12)
+		{
+		case 0:
+			cout << "申";
+			break;
+		case 1:
+			cout << "酉";
+			break;
+		case 2:
+			cout << "戌";
+			break;
+		case 3:
+			cout << "亥";
+			break;
+		case 4:
+			cout << "子";
+			break;
+		case 5:
+			cout << "丑";
+			break;
+		case 6:
+			cout << "寅";
+			break;
+		case 7:
+			cout << "卯";
+			break;
+		case 8:
+			cout << "辰";
+			break;
+		case 9:
+			cout << "巳";
+			break;
+		case 10:
+			cout << "午";
+			break;
+		case 11:
+			cout << "未";
+		}
+	}
+	return 0;
+}
